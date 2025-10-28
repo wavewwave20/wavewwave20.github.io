@@ -1,1 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Stack Overwave</title><link>https://wavewwave20.github.io/posts/</link><description>Recent content in Posts on Stack Overwave</description><generator>Hugo -- 0.152.2</generator><language>ko-kr</language><lastBuildDate>Tue, 28 Oct 2025 22:26:35 +0900</lastBuildDate><atom:link href="https://wavewwave20.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>First Post</title><link>https://wavewwave20.github.io/posts/first-post/</link><pubDate>Tue, 28 Oct 2025 22:26:35 +0900</pubDate><guid>https://wavewwave20.github.io/posts/first-post/</guid><description>&lt;h1 id="hi"&gt;hi&lt;/h1&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Stack Overwave</title><link>https://wavewwave20.github.io/posts/</link><description>Recent content in Posts on Stack Overwave</description><generator>Hugo -- 0.152.2</generator><language>ko-kr</language><lastBuildDate>Tue, 28 Oct 2025 22:26:35 +0900</lastBuildDate><atom:link href="https://wavewwave20.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>github page with Hugo 블로그 가이드</title><link>https://wavewwave20.github.io/posts/hugo-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9E%90%EB%8F%99-%EB%B0%B0%ED%8F%AC-a-to-z/</link><pubDate>Tue, 28 Oct 2025 22:26:35 +0900</pubDate><guid>https://wavewwave20.github.io/posts/hugo-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9E%90%EB%8F%99-%EB%B0%B0%ED%8F%AC-a-to-z/</guid><description>&lt;h1 id="-hugo-블로그-자동-배포-a-to-z"&gt;🚀 Hugo 블로그 자동 배포 A to Z&lt;/h1&gt;
+&lt;p&gt;이 가이드는 Hugo 소스 코드와 배포 결과물을 분리하고, GitHub Actions로 배포를 자동화하며, Codespaces로 어디서든 글을 쓸 수 있는 환경을 구축하는 것을 목표로 합니다.&lt;/p&gt;
+&lt;h2 id="1-2개의-저장소repository-준비"&gt;1. 2개의 저장소(Repository) 준비&lt;/h2&gt;
+&lt;p&gt;가장 먼저 소스 코드(원본)와 배포용(결과물)을 담을 두 개의 GitHub 저장소를 준비합니다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;A. 소스 코드 저장소 (비공개 권장)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;목적:&lt;/strong&gt; Hugo 원본 파일(&lt;code&gt;content/&lt;/code&gt;, &lt;code&gt;themes/&lt;/code&gt;, &lt;code&gt;hugo.toml&lt;/code&gt; 등)을 관리합니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;액션:&lt;/strong&gt; GitHub에서 &lt;code&gt;my-blog-source&lt;/code&gt; (이름은 자유)라는 &lt;strong&gt;Private&lt;/strong&gt; 저장소를 생성합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;B. HUGOPAGE 배포용 저장소 (공개 필수)&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>
